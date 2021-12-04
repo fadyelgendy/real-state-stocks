@@ -29,7 +29,8 @@
     </div>
     <div class="sidebar_item">
       <i class="fas fa-sign-out-alt"></i>
-      <span>logout</span>
+      <router-link to="/login"><span>logout</span></router-link>
+      
     </div>
   </div>
 </template>
