@@ -1,5 +1,5 @@
 {
-    "name": "Real Estate Stocks",
+    "name": "RealEstateStocks",
     "version": "0.1.0",
     "private": true,
     "scripts": {
@@ -30,7 +30,8 @@
             "eslint:recommended"
         ],
         "parserOptions": {
-            "parser": "babel-eslint"
+            "parser": "babel-eslint",
+            "ecmaVersion": 6
         },
         "rules": {}
     },
